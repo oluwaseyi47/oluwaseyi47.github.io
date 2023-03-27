@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Tech<span>Rookie</span></h2>
+
+
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- only use below when creating media query -->
+                    <i class="fa-sharp fa-solid fas fa-xmark"></i>
+                </ul>
+                  <!-- only use below when creating media query -->
+                <i class="fa-solid fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span> Oluwasheyi</span> <br> Kayode From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about section -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="res/2W8A9754.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I have a Bachelor's degree in Statistics and a diploma certificate in Full-Stack web development.
+                    I am an Experienced Technical Support Specialist with a demonstrated history and an enthusiastic
+                    service-oriented personnel with exceptional communication and multitasking abilities.
+
+                    I also posses the notable skills in proficient Full-Stack web development and manual QA testing .
+                    My resourcefulness and flexibility has helped me blend well since i consistently look out for ways
+                    to
+                    improve in all areas and put a valuable amount of time in getting better in ways that contribute to
+                    my
+                    work ethics and environment while gaining an insightful amount of experience as a team player.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span> <br> Creating highly responsive websites with creative
+                            interfaces</li>
+                        <li><span>App Development</span> <br> Building Android/IOS apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jan 2023 - Current</span> <br> Freelance Web Developer</li>
+                        <li><span>Dec 2021- Jan 2023</span> <br>Office 365 Tier 2 Support Engineer at Tek Experts</li>
+                        <li><span>Jan 2021 -Nov 2021 </span><br>Frontend Tech Support Specialist at Shopify Partners
+                        </li>
+                        <li><span>Jan 2020 -Nov 2020 </span><br>QA automation Engineer at JustWeb Tehnologies</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span> <br>FullStack JavaScript bootcamp at GoMyCode</li>
+                        <li><span>2015 - 2019 University of Ilorin</span> <br> Bsc. Statistics </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                My Services
+            </h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Every website should be built with two primary goals: Firstly, it needs to work accross
+                        all devices. Secondly, it ned to be fast as possible.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        Building highly scalable mobile applications with the latest native technologies
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h2>Support Engineer</h2>
+                    <p>
+                        I am an Experienced Technical Support Specialist with a demonstrated history and an enthusiastic
+                        service-oriented personnel with exceptional communication and multitasking abilities.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------  Portfolio  --- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="res/phone2.PNG">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            The app connects you to the talented <br> people around the world.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="res/phone1.PNG">
+                    <div class="layer">
+                        <h3>Geo Location App</h3>
+                        <p>
+                            This App helps you get your exact Location
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="res/phone3.PNG">
+                    <div class="layer">
+                        <h3>3D Design Maker</h3>
+                        <p>
+                            This App helps you get your exact Location
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="https://github.com/oluwaseyi47" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- contatc-section -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kayodeoluwaseyi700@yahoo.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-square-phone"></i>+2347069789179</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/KodsRookie" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                        <a href="https://github.com/oluwaseyi47" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kayode-oluwaseyi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="res/Resume-Oluwaseyi--Kayode-.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright &#169 Oluwasheyi created it <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
